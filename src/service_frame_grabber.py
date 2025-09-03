@@ -110,7 +110,7 @@ class ServiceGrabber:
 						class_name = class_name[2:].strip()
 						
 						confidence_score = prediction[0][index]
-						confidence_score = str(np.round(confidence_score * 100))[:-2]
+						#confidence_score = str(np.round(confidence_score * 100))[:-2] 
 						
 						prediction_details = {
 							"class_name": class_name,
